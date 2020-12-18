@@ -1,0 +1,26 @@
+body{
+background-color: black;
+color: white;
+font-size: larger;
+text-align: center;
+}
+#inp{
+margin-top: 40%;
+height: 30px;
+width: 200px;
+border: 1px solid aqua;
+background-color: transparent;
+outline: none;
+color: white;
+font-size: larger;
+padding: 10px;
+padding-left: 20px;
+padding-right: 20px:
+transition-property: width;
+transition-duration: 0.3s;
+border-radius: 24px;
+}
+#inp:focus{
+width: 300px;
+border: 1px solid blue;
+}
